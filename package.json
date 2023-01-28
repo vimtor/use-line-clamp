@@ -2,7 +2,7 @@
   "name": "use-line-clamp",
   "description": "React.js hook to detect if text will clamp in X number of lines",
   "license": "MIT",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "sideEffects": false,
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -16,7 +16,7 @@
     "dist/**"
   ],
   "scripts": {
-    "build": "tsup src/index.ts --format esm,cjs --dts --external react",
+    "build": "tsup src/index.ts --format esm,cjs --sourcemap --minify --dts --external react",
     "format": "prettier --write \"./**/*.{ts,tsx,md,json}\""
   },
   "dependencies": {
