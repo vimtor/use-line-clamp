@@ -1,6 +1,11 @@
 # use-line-clamp
 
-React.js hook to detect if text will clamp in X number of lines.
+React.js hook to detect if text will clamp in X number of lines. This allows you to use lines instead of character for implementing "show more" behaviour.
+
+
+[**See live demo**](https://stackblitz.com/edit/use-line-clamp?file=App.tsx)
+
+https://user-images.githubusercontent.com/36263538/215266290-49dbc549-f710-402b-bc9e-9cc97215d829.mp4
 
 ## Install
 
