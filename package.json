@@ -2,11 +2,16 @@
   "name": "use-line-clamp",
   "description": "React.js hook to detect if text will clamp in X number of lines",
   "license": "MIT",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "sideEffects": false,
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
+  "author": {
+    "email": "victor@vimtor.io",
+    "name": "Victor Navarro",
+    "url": "https://vimtor.io"
+  },
   "files": [
     "dist/**"
   ],
@@ -33,5 +38,19 @@
   "peerDependencies": {
     "react": "^16.8.0  || ^17.0.0 || ^18.0.0",
     "react-dom": "^16.8.0  || ^17.0.0 || ^18.0.0"
-  }
+  },
+  "homepage": "https://github.com/vimtor/use-line-clamp#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vimtor/use-line-clamp"
+  },
+  "bugs": {
+    "url": "https://github.com/vimtor/use-line-clamp/issues"
+  },
+  "keywords": [
+    "react",
+    "hook",
+    "line clamp",
+    "show more"
+  ]
 }
