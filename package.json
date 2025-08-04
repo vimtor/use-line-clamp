@@ -2,7 +2,7 @@
   "name": "use-line-clamp",
   "description": "React.js hook to detect if text will clamp in X number of lines",
   "license": "MIT",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "sideEffects": false,
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -20,9 +20,7 @@
     "format": "prettier --write \"./**/*.{ts,tsx,md,json}\""
   },
   "dependencies": {
-    "lodash.debounce": "^4.0.8",
-    "react": "^18.2.0",
-    "use-line-clamp": "^0.1.0"
+    "lodash.debounce": "^4.0.8"
   },
   "devDependencies": {
     "@types/lodash.debounce": "4.0.7",
